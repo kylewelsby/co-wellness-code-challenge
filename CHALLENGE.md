@@ -20,7 +20,7 @@ The selection process is as follow:
 
 1. User can change address type (default=residential). In the dropdown must be shown only the above options
 2. User start typing the address and select one of the Google suggestions
-3. After selecting one of the Google suggestion, it should be possible to enter or confirm the address number in a separate field thattemporary appear in the address area; when the user move to away from the number field the address number is than added directly inthe address string (at the beginning). Please note that the number can be a string (examples of address number “4a”, “4/1”, “km 124”, ..).
+3. After selecting one of the Google suggestion, it should be possible to enter or confirm the address number in a separate field that temporary appear in the address area; when the user move to away from the number field the address number is than added directly inthe address string (at the beginning). Please note that the number can be a string (examples of address number “4a”, “4/1”, “km 124”, ..).
 
 ## OTHER COMMON FIELD FEATURE:
 

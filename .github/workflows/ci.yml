@@ -77,6 +77,8 @@ jobs:
 
       - name: Build 🚧
         run: yarn nuxt storybook build
+        env:
+          NUXT_ENV_GOOGLE_MAPS_KEY: ${{ secrets.NUXT_ENV_GOOGLE_MAPS_KEY }}
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:

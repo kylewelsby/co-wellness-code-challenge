@@ -27,13 +27,13 @@ yarn install
 Start a local development server with the following command
 
 ```bash
-yarn dev
+NUXT_ENV_GOOGLE_MAPS_KEY=$GOOGLE_API_KEY yarn dev
 ```
 
 To deploy the resulting code to a Web Server, the code must be compiled before deployment.
 
 ```
-yarn generate
+NUXT_ENV_GOOGLE_MAPS_KEY=$GOOGLE_API_KEY yarn generate
 ```
 
 The resulting code in `./dist` can be uploaded to your Web Server of choice.
@@ -44,13 +44,13 @@ The resulting code in `./dist` can be uploaded to your Web Server of choice.
 Start a local storybook development server with the following command
 
 ```bash
-yarn nuxt storybook
+NUXT_ENV_GOOGLE_MAPS_KEY=$GOOGLE_API_KEY yarn nuxt storybook
 ```
 
 To deploy the resulting code to a Web Server, the code must be compiled before deployment.
 
 ```bash
-yarn nuxt storybook build
+NUXT_ENV_GOOGLE_MAPS_KEY=$GOOGLE_API_KEY yarn nuxt storybook build
 ```
 
 The resulting code in `./storybook-static` can be uploaded to your Web Server of choice.
